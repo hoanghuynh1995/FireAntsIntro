@@ -1,3 +1,195 @@
-body {
-	background-color: grey;
+body
+{
+    background: url(images/bg.jpg) no-repeat top center fixed;
+    transition: 1s;
+    color: #ffffff!important;
+}
+
+#wrapper
+{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.team-heading
+{
+    text-align: center;
+}
+
+.team-heading h2
+{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fed136;
+}
+
+.team-heading h4
+{
+    font-style: italic;
+}
+
+.team-photo
+{
+    background: url(images/team.png) no-repeat center;
+    height: 300px;
+}
+
+.team-member
+{
+    padding-bottom: 50px;
+}
+
+.member-info, .member-contact
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member-info > h4
+{
+    font-weight: bolder;
+}
+
+.team-role
+{
+    font-style: italic;
+}
+
+.icon-link
+{
+    padding: 10px 16px;
+    border-radius: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 2px;
+}
+
+.icon-link:hover
+{
+    background: #fed136;
+    color: #ffffff;
+}
+
+footer
+{
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+footer .row
+{
+    width: 1140px;
+    padding: 30px 0px;
+    margin: auto;
+    text-align: center
+}
+
+ul
+{
+    list-style: none;
+}
+
+footer ul>li
+{
+    float: left;
+    padding: 0px 20px;
+    margin: auto;
+}
+.logo a {
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 30px;
+    color: #fed136;
+    float: left;
+    text-decoration: none;
+}
+
+nav {
+    background: #222222;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.memu-bar a {
+    color: #ffffff!important;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none!important;
+}
+
+.memu-bar a:hover
+{
+    color: #fed136!important;
+}
+
+.menu-li {
+    float: right;
+}
+
+footer span
+{
+    color: #333;
+    font-weight: bold;
+}
+
+footer a 
+{
+    color: #333;
+    font-weight: bold;
+}
+
+footer a:hover
+{
+    color: #fed136;
+}
+
+.member-profile {
+    width: 920px;
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+    background: #ffffff;
+}
+
+.member-avatar {
+    margin-top: -100px;
+    margin-left: 140px;
+    width: 780px;
+}
+
+.member-name {
+    text-align: left;
+    padding-top: 100px;
+    color: #fed136;
+}
+
+.detail {
+    margin-top: 50px;
+    margin-left: 140px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    padding-bottom: 50px;
+    width: 700px;
+}
+
+.info-row {
+    padding: 10px 0px;
+    border-bottom: #000 1px solid;
+}
+
+.table {
+    width: 
+}
+
+.member-detail {
+    padding-bottom: 50px;
+}
+
+.member-detail a {
+    color: #fed136!important;
+}
+
+.logo a:hover {
+    color: #fed136;
+    text-decoration: none;
 }
