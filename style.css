@@ -1,3 +1,8 @@
+html, body
+{
+    height: 100%;
+}
+
 body
 {
     background: url(images/bg.jpg) no-repeat top center fixed;
@@ -8,6 +13,7 @@ body
 #wrapper
 {
     background: rgba(0, 0, 0, 0.4);
+    min-height: 100%;
 }
 
 .team-heading
@@ -29,7 +35,6 @@ body
 
 .team-photo
 {
-    background: url(images/team.png) no-repeat center;
     height: 300px;
 }
 
@@ -56,18 +61,22 @@ body
 
 .icon-link
 {
-    padding: 10px 16px;
     border-radius: 20px;
     background: #000000;
     color: #ffffff;
     font-size: 18px;
     margin: 2px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
 }
 
 .icon-link:hover
 {
     background: #fed136;
     color: #ffffff;
+    transition: 0.4s;
 }
 
 footer
@@ -192,4 +201,8 @@ footer a:hover
 .logo a:hover {
     color: #fed136;
     text-decoration: none;
+}
+
+
+.container {
 }
