@@ -1,12 +1,18 @@
-<<<<<<< HEAD
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
+@import url(/font/monsterrat.tff);
+
 html, body
 {
     height: 100%;
 }
-=======
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
-@import url(/font/monsterrat.tff);
->>>>>>> db77b335791ff9d800ad57989fd0e9acf9cb3f62
+
+@font-face 
+{
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.tff") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body
 {
@@ -19,13 +25,7 @@ body
 #wrapper
 {
     background: rgba(0, 0, 0, 0.4);
-<<<<<<< HEAD
     min-height: 100%;
-=======
-    height: auto !important;
-    min-height: 100%;
-    margin: 0 auto -142px;
->>>>>>> db77b335791ff9d800ad57989fd0e9acf9cb3f62
 }
 
 .team-heading
@@ -74,8 +74,7 @@ body
 
 .icon-link
 {
-<<<<<<< HEAD
-    border-radius: 20px;
+    border-radius: 100%;
     background: #000000;
     color: #ffffff;
     font-size: 18px;
@@ -84,17 +83,7 @@ body
     width: 40px;
     display: inline-block;
     line-height: 40px;
-=======
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    border-radius: 100%;
-    background: #000000;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 40px;
     margin-right: 10px;
->>>>>>> db77b335791ff9d800ad57989fd0e9acf9cb3f62
 }
 
 .icon-link:hover
@@ -229,18 +218,15 @@ footer a:hover
     color: #fed136;
     text-decoration: none;
 }
-<<<<<<< HEAD
 
-
-.container {
-=======
 .member-contact1 {
     display: block;
     box-sizing: border-box;    
 }
 
-
 .col-md-4 {
-    line-height: 40px;
->>>>>>> db77b335791ff9d800ad57989fd0e9acf9cb3f62
+}
+
+.student-id {
+    font-family: "Montserrat" !important;
 }
