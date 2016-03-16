@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
-@import url(/font/monsterrat.tff);
 
 html, body
 {
@@ -8,8 +7,8 @@ html, body
 
 @font-face 
 {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat.tff") format("truetype");
+    font-family: Montserrat;
+    src: url('fonts/Montserrat.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,6 +17,7 @@ body
 {
     background: url(images/bg.jpg) no-repeat top center fixed;
     transition: 1s;
+    background-size: cover;
     color: #ffffff!important;
     height: 100%;
 }
@@ -38,11 +38,13 @@ body
     font-weight: 700;
     font-size: 40px;
     color: #fed136;
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .team-heading h4
 {
     font-style: italic;
+    font-family: "Roboto Slab", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .team-photo
@@ -68,8 +70,8 @@ body
 
 .team-role
 {
-    font-style: normal;
-    font-family: 'Roboto Slab';
+    font-style: italic;
+    font-family: "Roboto Slab", "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .icon-link
@@ -96,9 +98,6 @@ body
 footer
 {
     background: #ffffff;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
 
 footer .row
@@ -148,12 +147,15 @@ nav {
 
 .menu-li {
     float: right;
+    font-size: 16px;
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 footer span
 {
     color: #333;
     font-weight: bold;
+    line-height: 42px;
 }
 
 footer a 
@@ -184,7 +186,7 @@ footer a:hover
 .member-name {
     text-align: left;
     padding-top: 100px;
-    color: #fed136;
+    color: #fed136;    
 }
 
 .detail {
@@ -200,6 +202,7 @@ footer a:hover
 .info-row {
     padding: 10px 0px;
     border-bottom: #000 1px solid;
+    font-family: "Roboto Slab", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .table {
@@ -208,6 +211,8 @@ footer a:hover
 
 .member-detail {
     padding-bottom: 50px;
+    height: 100%;
+    background: #fff;
 }
 
 .member-detail a {
@@ -225,8 +230,44 @@ footer a:hover
 }
 
 .col-md-4 {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 13px;
 }
 
 .student-id {
-    font-family: "Montserrat" !important;
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.right-footer {
+    line-height: 42px;
+}
+
+.nav-profile-page {
+    background: #222;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.profile-page {
+    background: #f7f7f7;
+    transition: 1s;
+    color: #ffffff!important;
+    height: 100vh;
+}
+
+.full-name {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    padding-left: 20px;
+    font-size: 26px;
+}
+
+.container-profile-page {
+    height: 100%;
+}
+
+
+
+.fa {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-weight: bold;
 }
