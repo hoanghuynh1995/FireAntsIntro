@@ -8,8 +8,8 @@ html, body
 
 @font-face 
 {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat.tff") format("truetype");
+    font-family: Montserrat;
+    src: url('/fonts/Montserrat.tff') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +19,7 @@ body
     background: url(images/bg.jpg) no-repeat top center fixed;
     transition: 1s;
     color: #ffffff!important;
-    height: 100%;
+    background-size: cover;
 }
 
 #wrapper
@@ -96,9 +96,7 @@ body
 footer
 {
     background: #ffffff;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    padding-top: 15px;
 }
 
 footer .row
@@ -120,7 +118,9 @@ footer ul>li
     padding: 0px 20px;
     margin: auto;
 }
-.logo a {
+
+.logo a 
+{
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     font-size: 30px;
     color: #fed136;
@@ -128,13 +128,15 @@ footer ul>li
     text-decoration: none;
 }
 
-nav {
+nav 
+{
     background: none;
     padding: 10px 0px;
     margin-bottom: 50px;
 }
 
-.memu-bar a {
+.memu-bar a 
+{
     color: #ffffff!important;
     font-weight: bold;
     padding: 10px 15px;
@@ -146,7 +148,8 @@ nav {
     color: #fed136!important;
 }
 
-.menu-li {
+.menu-li 
+{
     float: right;
 }
 
@@ -167,7 +170,8 @@ footer a:hover
     color: #fed136;
 }
 
-.member-profile {
+.member-profile 
+{
     width: 920px;
     margin: auto;
     text-align: center;
@@ -175,19 +179,22 @@ footer a:hover
     background: #ffffff;
 }
 
-.member-avatar {
+.member-avatar 
+{
     margin-top: -100px;
     margin-left: 140px;
     width: 780px;
 }
 
-.member-name {
+.member-name 
+{
     text-align: left;
     padding-top: 100px;
     color: #fed136;
 }
 
-.detail {
+.detail 
+{
     margin-top: 50px;
     margin-left: 140px;
     text-align: left;
@@ -197,36 +204,45 @@ footer a:hover
     width: 700px;
 }
 
-.info-row {
+.info-row 
+{
     padding: 10px 0px;
     border-bottom: #000 1px solid;
 }
 
-.table {
+.table 
+{
     width: 
 }
 
-.member-detail {
+.member-detail 
+{
     padding-bottom: 50px;
+    margin-bottom: 15px;
 }
 
-.member-detail a {
+.member-detail a 
+{
     color: #fed136!important;
 }
 
-.logo a:hover {
+.logo a:hover 
+{
     color: #fed136;
     text-decoration: none;
 }
 
-.member-contact1 {
+.member-contact1 
+{
     display: block;
     box-sizing: border-box;    
 }
 
-.col-md-4 {
+.col-md-4 
+{
 }
 
-.student-id {
-    font-family: "Montserrat" !important;
+.student-id 
+{
+    font-family: Montserrat !important;
 }
