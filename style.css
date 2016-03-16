@@ -1,13 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
+@import url(/font/monsterrat.tff);
+
 body
 {
     background: url(images/bg.jpg) no-repeat top center fixed;
     transition: 1s;
     color: #ffffff!important;
+    height: 100%;
 }
 
 #wrapper
 {
     background: rgba(0, 0, 0, 0.4);
+    height: auto !important;
+    min-height: 100%;
+    margin: 0 auto -142px;
 }
 
 .team-heading
@@ -29,7 +36,6 @@ body
 
 .team-photo
 {
-    background: url(images/team.png) no-repeat center;
     height: 300px;
 }
 
@@ -51,17 +57,21 @@ body
 
 .team-role
 {
-    font-style: italic;
+    font-style: normal;
+    font-family: 'Roboto Slab';
 }
 
 .icon-link
 {
-    padding: 10px 16px;
-    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 100%;
     background: #000000;
     color: #ffffff;
-    font-size: 18px;
-    margin: 2px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 10px;
 }
 
 .icon-link:hover
@@ -73,13 +83,15 @@ body
 footer
 {
     background: #ffffff;
-    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 footer .row
 {
     width: 1140px;
-    padding: 30px 0px;
+    padding: 15px 0px;
     margin: auto;
     text-align: center
 }
@@ -104,7 +116,7 @@ footer ul>li
 }
 
 nav {
-    background: #222222;
+    background: none;
     padding: 10px 0px;
     margin-bottom: 50px;
 }
@@ -192,4 +204,13 @@ footer a:hover
 .logo a:hover {
     color: #fed136;
     text-decoration: none;
+}
+.member-contact1 {
+    display: block;
+    box-sizing: border-box;    
+}
+
+
+.col-md-4 {
+    line-height: 40px;
 }
