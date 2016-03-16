@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
-@import url(/font/monsterrat.tff);
+
+@font-face 
+{
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.tff") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body
 {
@@ -213,4 +220,8 @@ footer a:hover
 
 .col-md-4 {
     line-height: 40px;
+}
+
+.student-id {
+    font-family: "Montserrat" !important;
 }
