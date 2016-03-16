@@ -8,7 +8,11 @@ html, body
 @font-face 
 {
     font-family: Montserrat;
+<<<<<<< HEAD
     src: url('fonts/Montserrat.ttf') format('truetype');
+=======
+    src: url('/fonts/Montserrat.tff') format('truetype');
+>>>>>>> 65f43ea185c4830b21e45d34bd0fcadb3962513d
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +23,7 @@ body
     transition: 1s;
     background-size: cover;
     color: #ffffff!important;
-    height: 100%;
+    background-size: cover;
 }
 
 #wrapper
@@ -98,6 +102,10 @@ body
 footer
 {
     background: #ffffff;
+<<<<<<< HEAD
+=======
+    padding-top: 15px;
+>>>>>>> 65f43ea185c4830b21e45d34bd0fcadb3962513d
 }
 
 footer .row
@@ -119,7 +127,9 @@ footer ul>li
     padding: 0px 20px;
     margin: auto;
 }
-.logo a {
+
+.logo a 
+{
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     font-size: 30px;
     color: #fed136;
@@ -127,13 +137,15 @@ footer ul>li
     text-decoration: none;
 }
 
-nav {
+nav 
+{
     background: none;
     padding: 10px 0px;
     margin-bottom: 50px;
 }
 
-.memu-bar a {
+.memu-bar a 
+{
     color: #ffffff!important;
     font-weight: bold;
     padding: 10px 15px;
@@ -145,7 +157,8 @@ nav {
     color: #fed136!important;
 }
 
-.menu-li {
+.menu-li 
+{
     float: right;
     font-size: 16px;
     font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -169,7 +182,8 @@ footer a:hover
     color: #fed136;
 }
 
-.member-profile {
+.member-profile 
+{
     width: 920px;
     margin: auto;
     text-align: center;
@@ -177,19 +191,22 @@ footer a:hover
     background: #ffffff;
 }
 
-.member-avatar {
+.member-avatar 
+{
     margin-top: -100px;
     margin-left: 140px;
     width: 780px;
 }
 
-.member-name {
+.member-name 
+{
     text-align: left;
     padding-top: 100px;
     color: #fed136;    
 }
 
-.detail {
+.detail 
+{
     margin-top: 50px;
     margin-left: 140px;
     text-align: left;
@@ -199,37 +216,47 @@ footer a:hover
     width: 700px;
 }
 
-.info-row {
+.info-row 
+{
     padding: 10px 0px;
     border-bottom: #000 1px solid;
     font-family: "Roboto Slab", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
-.table {
+.table 
+{
     width: 
 }
 
-.member-detail {
+.member-detail 
+{
     padding-bottom: 50px;
+<<<<<<< HEAD
     height: 100%;
     background: #fff;
+=======
+>>>>>>> 65f43ea185c4830b21e45d34bd0fcadb3962513d
     margin-bottom: 15px;
 }
 
-.member-detail a {
+.member-detail a 
+{
     color: #fed136!important;
 }
 
-.logo a:hover {
+.logo a:hover 
+{
     color: #fed136;
     text-decoration: none;
 }
 
-.member-contact1 {
+.member-contact1 
+{
     display: block;
     box-sizing: border-box;    
 }
 
+<<<<<<< HEAD
 .col-md-4 {
     font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     font-size: 13px;
@@ -271,4 +298,13 @@ footer a:hover
 .fa {
     font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     font-weight: bold;
+=======
+.col-md-4 
+{
+}
+
+.student-id 
+{
+    font-family: Montserrat !important;
+>>>>>>> 65f43ea185c4830b21e45d34bd0fcadb3962513d
 }
